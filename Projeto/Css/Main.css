@@ -1,0 +1,35 @@
+body {
+	background-image: url(../Imagens/Fundo.gif);
+	background-size: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+div {
+	margin: 0 auto;
+}
+
+ol {
+	font-size: 0.9em;
+	padding: 3px;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	border: 1px solid rgb(0, 0, 0);
+	float: left;
+	clear: left;
+}
+
+li a:hover {
+	padding-left: 20px;
+	color: yellow;
+}

@@ -1,0 +1,55 @@
+    .mouse1{
+        display: inline;
+        opacity: 0.05;
+    }
+    .mouse1:hover{
+        opacity: 0.5;
+        color: rgb(0, 0, 0);
+        background-color: black;
+    }
+    #form1{
+        opacity: 0.2;
+    }
+    #form1:hover{
+        opacity: 0.7;
+    }
+    #Nick, #Pw{
+        background-color: rgb(0, 0, 0);
+    }
+    ol{
+    list-style: none;
+    padding-right: 5em;
+    }
+    p{
+        font-size: 1em;
+        color: rgb(0, 0, 0);
+    }
+    div{
+        text-align: center;
+    }
+    body{
+        background-image: url(../Imagens/Fundo.gif);
+        background-repeat: no-repeat;
+        background-position: center top;
+        min-width: 100px;
+        background-size: cover;
+        
+    }
+    p, h3{
+        color: rgb(0, 0, 0);
+    }
+    li{
+        display: inline-block;
+        text-align: center;
+        padding-left: 3em;		
+    }
+    a{
+        font-size: 1.8em;
+        text-decoration: none;
+        display: block;
+        color: rgb(0, 0, 0);
+    }
+    p:hover,h3:hover,a:hover{
+        opacity: 0.5;
+        color: yellow;
+    }
